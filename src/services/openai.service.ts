@@ -11,7 +11,7 @@ export default class OpenAiService {
     });
   }
 
-  async chatWithTools(prompt: string): Promise<string> {
+  async chatWithStockMaster(prompt: string): Promise<string> {
     try {
       const messages: ChatCompletionMessageParam[] = [
         {

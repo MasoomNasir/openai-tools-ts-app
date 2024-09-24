@@ -14,9 +14,9 @@ async function run() {
         return;
       }
    
-      const response = await openai.chatWithTools(userInput);
+      const response = await openai.chatWithStockMaster(userInput);
       const text = response;
-      console.log(colors.green("StockMaster: ") + text);
+      console.log(colors.green("StockMaster: ") + colors.italic(text));
     }
 }
 

@@ -1,7 +1,7 @@
 import express from 'express';
-import { chatWithTools } from '../controllers/openaiController';
+import { chatWithStockMaster } from '../controllers/openaiController';
 const router = express.Router();
 
-router.post('/chat', chatWithTools);
+router.post('/stock-master', chatWithStockMaster);
 
 export default router;

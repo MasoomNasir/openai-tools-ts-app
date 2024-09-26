@@ -1,0 +1,27 @@
+[33mWARNING[0m:  [25-09-2024 14:02:48] chroma_server_nofile is not supported on Windows. chroma_server_nofile will not be set.
+[32mINFO[0m:     [25-09-2024 14:02:50] Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+[36mDEBUG[0m:    [25-09-2024 14:02:50] Starting component System
+[36mDEBUG[0m:    [25-09-2024 14:02:50] Starting component OpenTelemetryClient
+[36mDEBUG[0m:    [25-09-2024 14:02:50] Starting component SqliteDB
+[36mDEBUG[0m:    [25-09-2024 14:02:50] Starting component QuotaEnforcer
+[36mDEBUG[0m:    [25-09-2024 14:02:50] Starting component Posthog
+[36mDEBUG[0m:    [25-09-2024 14:02:50] Starting component LocalSegmentManager
+[36mDEBUG[0m:    [25-09-2024 14:02:50] Starting component SegmentAPI
+[32mINFO[0m:     [25-09-2024 14:02:50] Started server process [[36m15596[0m]
+[32mINFO[0m:     [25-09-2024 14:02:50] Waiting for application startup.
+[32mINFO[0m:     [25-09-2024 14:02:50] Application startup complete.
+[32mINFO[0m:     [25-09-2024 14:02:50] Uvicorn running on [1mhttp://localhost:8000[0m (Press CTRL+C to quit)
+[32mINFO[0m:     [25-09-2024 14:03:21] ::1:31963 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [25-09-2024 14:03:23] ::1:31963 - "GET /favicon.ico HTTP/1.1" 404
+[32mINFO[0m:     [25-09-2024 14:03:26] ::1:31963 - "GET / HTTP/1.1" 404
+[32mINFO[0m:     [25-09-2024 14:03:49] Shutting down
+[32mINFO[0m:     [25-09-2024 14:03:49] Waiting for application shutdown.
+[36mDEBUG[0m:    [25-09-2024 14:03:49] Stopping component System
+[36mDEBUG[0m:    [25-09-2024 14:03:49] Stopping component SegmentAPI
+[36mDEBUG[0m:    [25-09-2024 14:03:49] Stopping component LocalSegmentManager
+[36mDEBUG[0m:    [25-09-2024 14:03:49] Stopping component Posthog
+[36mDEBUG[0m:    [25-09-2024 14:03:49] Stopping component QuotaEnforcer
+[36mDEBUG[0m:    [25-09-2024 14:03:49] Stopping component SqliteDB
+[36mDEBUG[0m:    [25-09-2024 14:03:49] Stopping component OpenTelemetryClient
+[32mINFO[0m:     [25-09-2024 14:03:49] Application shutdown complete.
+[32mINFO[0m:     [25-09-2024 14:03:49] Finished server process [[36m15596[0m]

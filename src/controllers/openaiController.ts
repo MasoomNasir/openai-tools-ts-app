@@ -19,3 +19,21 @@ export const chatWithStockMaster = async (req: Request, res: Response) => {
     res.status(500).json({ success: false, error: error.message });
   }
 };
+
+export const chatWithThirtyNorth = async (req: Request, res: Response) => {
+  try {
+    const { prompt } = req.body;
+    if (!prompt || typeof prompt !== "string") {
+      return res.status(400).json({ error: "Invalid prompt" });
+    }
+    const ai = new OpenAiService()
+    const reply = await ai.chatWithThirtyNorth(prompt)
+    res.json({
+      success: true,
+      response: reply,
+    });
+  } catch (error: any) {
+    res.status(500).json({ success: false, error: error.message });
+  }
+}
+
